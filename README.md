@@ -1,4 +1,4 @@
-# myshows_convolution
+# myshows_foldup
 [Букмарклет](https://ru.wikipedia.org/wiki/Букмарклет) для сворачивания сезонов с непросмотренными эпизодами всех сериалов на странице профиля с сериалами на http://myshows.me
 
 
