@@ -12,5 +12,22 @@
 javascript: (function(){$('div.seasonBlock').each(function() {closeSeasonBlock(this.id);}); saveCookies(); alert('Все свернуто! Перезагрузи страницу.');})();
 ```
 
+'''js
+javascript: 
+(
+  function(){
+    Array
+      .from(document.getElementsByClassName("Row Unwatched-season"))
+      .forEach(
+          (entry) => {
+          if(entry.getElementsByTagName('svg')[0].className.animVal.includes('collapsed')){
+            entry.click()
+          }
+      }
+  ); 
+  alert('DONE!')}
+)();
+'''
+
 После этого, на странице сериалов (на http://myshows.me/profile/) можно просто нажать на закладку и все сериалы свернутся.
 
