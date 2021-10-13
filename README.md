@@ -12,7 +12,8 @@
 javascript: (function(){$('div.seasonBlock').each(function() {closeSeasonBlock(this.id);}); saveCookies(); alert('Все свернуто! Перезагрузи страницу.');})();
 ```
 
-'''js
+Для нового дизайна.
+```js
 javascript: 
 (
   function(){
@@ -27,7 +28,7 @@ javascript:
   ); 
   alert('DONE!')}
 )();
-'''
+```
 
 После этого, на странице сериалов (на http://myshows.me/profile/) можно просто нажать на закладку и все сериалы свернутся.
 
